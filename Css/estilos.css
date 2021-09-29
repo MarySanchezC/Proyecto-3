@@ -1,0 +1,76 @@
+.logohistory {
+  width: 180px;
+  height: 40px;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: brown;
+}
+
+.iconodetails {
+  width: 75px;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-user {
+  padding-top: 8px;
+  color: crimson;
+}
+.carousel-item img {
+  margin: 0 auto;
+  width: auto;
+  height: 500px;
+}
+
+/* Estilos de seccion 2 */
+.Myths {
+  font-size: 18px;
+}
+
+/* seccion imagenes */
+
+.contenedor {
+  background-color: black;
+}
+
+.imagenes-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.imagenes-container img {
+  /* Prefijos -webkkit- */
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  width: 100%;
+  height: 400px;
+  cursor: pointer;
+}
+
+.imagenes-container :hover {
+  /* nos realiza una animacion de escala 
+  (es un efecto que permite a un elemento cambiar de forma, tamañoo posicion */
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.imagenes-details {
+ position: absolute;
+ bottom: 25px;
+ left: 28px;
+ /* propiedad de capas */
+ z-index: 100;
+ color: aliceblue;
+ background-color: black;
+
+
+
+}
